@@ -1,2 +1,2 @@
 # TemosReport
-Módulo para criação de relatórios no Odoo para Temos Engenharia
+Módulo para geração de relatórios no Odoo para Temos Engenharia
