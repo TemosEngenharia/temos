@@ -23,7 +23,7 @@
 {
     'name': u'Temos - Central de Relatórios',
     'version': u'10.0.0.0.0',
-    'author': u"Cezar José Sant'Anna Junior",
+    'author': u"Temos Engenharia",
     'maintainer': u'Temos Engenharia Ltda',
     'website': u'http://temos.net',
     'license': u'AGPL-3',
