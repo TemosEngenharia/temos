@@ -21,24 +21,22 @@
 ##############################################################################
 
 {
-    'name': u'Temos - Central de Relatórios',
+    'name': u'Temos - Módulo base',
     'version': u'10.0.0.0.0',
     'author': u"Temos Engenharia",
     'maintainer': u'Temos Engenharia Ltda',
     'website': u'http://temos.net',
     'license': u'AGPL-3',
     'category': u'Reporting',
-    'summary': u'Permite a geração e envio dos relatórios no Odoo para a Temos Engenharia',
+    'summary': u'Cria o menu principal e insere os modelos base para a operação da Temos Engenharia',
     'depends': ['base',
-                'report_py3o',
-                'temos_corretiva',
                ],
     'external_dependencies': {
-        'python': ['py3o.fusion',
-                   'py3o.renderserver',
-                  ],
+        'python': [],
     },
-    'data': ['data/report_corretiva.xml'],
+    'data': [
+             'views/temos_menu.xml',
+            ],
     'demo': [],
     'test': [],
     'installable': True,

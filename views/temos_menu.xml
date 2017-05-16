@@ -1,0 +1,10 @@
+<xml version="1.0>
+  <odoo>
+    <!-- Menu item to open To-do Task list -->
+    <menuitem
+      id="menu_temos"
+      name="Temos"
+      sequence = "0"
+    />
+  </odoo>
+
